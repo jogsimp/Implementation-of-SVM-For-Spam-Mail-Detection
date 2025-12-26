@@ -26,7 +26,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-df = pd.read_csv("spam.csv")
+df = pd.read_csv("spam.csv (1)")
 
 df['label'] = df['v1'].map({'ham': 0, 'spam': 1})
 
